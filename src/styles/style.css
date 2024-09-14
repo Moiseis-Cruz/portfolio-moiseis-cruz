@@ -1,8 +1,17 @@
-.cabecalho {
+.header {
     width: 100%;
     height: 100px;
     background-color: blueviolet;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.header-content {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2em;
 }
