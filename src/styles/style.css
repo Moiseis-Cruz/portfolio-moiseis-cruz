@@ -13,5 +13,12 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    font-size: 2em;
+    font-size: 2rem;
+}
+
+.header-buttons-content {
+    background-color: brown;
+    display: inline-flex;
+    gap: 10px;
+    font-size: 1.8rem;
 }
