@@ -9,6 +9,18 @@
 body {
     font-size: 62.5%;
     font-family: "Montserrat", sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+main {
+    font-size: 1.6rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 ul {
