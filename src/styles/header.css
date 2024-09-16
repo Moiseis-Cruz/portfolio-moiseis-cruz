@@ -64,6 +64,10 @@
 
 /* Estilos para o menu em dispositivos móveis */
 @media (max-width: 768px) {
+    .header-content {
+        font-size: 1.4rem;
+    }
+
     .header-buttons-content {
         position: absolute;
         top: 100px;
