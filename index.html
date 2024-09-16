@@ -12,19 +12,44 @@
     <header class="header">
         <div class="header-content">
             <i class="fa-sharp fa-solid fa-code"></i>
-
             <h2>Moiseis Cruz</h2>
         </div>
 
-        <button ></button>
-
         <nav>
             <ul class="header-buttons-content">
-                <li><a href="#sobre-mim">Sobre mim</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre-mim" class="nav-link">Sobre mim</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
             </ul>
         </nav>
+
+        <!-- Botão Hamburguer com três linhas -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </header>
+
+    <!-- Script para funcionamento do menu hamburguer -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.header-buttons-content');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        // Toggle para abrir/fechar o menu hamburguer
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('open');
+        });
+
+        // Fechar o menu quando um link for clicado
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('open');
+            });
+        });
+    </script>
 </body>
 </html>
