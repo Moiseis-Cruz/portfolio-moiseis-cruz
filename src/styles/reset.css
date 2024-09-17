@@ -12,10 +12,12 @@ body {
     width: 100%;
     max-width: 1440px;
     margin-inline: auto;
+    color: var(--primary-color);
 }
 
 main {
     font-size: 1.6rem;
+    background-color: var(--tertiary-color);
 }
 
 img {
