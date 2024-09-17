@@ -13,11 +13,9 @@
 
 .name-hero {
     font-size: 3.5rem;
-    /* margin-top: 10px; */
 }
 
 .cargo-hero {
-    /* margin-top: 15px; */
     font-size: 1.8rem;
 }
 
@@ -37,9 +35,6 @@
     border-radius: 50%;
     padding: 15px;
     box-shadow: inset 0 0 3px 3px var(--primary-color);
-    /* height: 450px; */
-    /* background-color: var(); */
-    /* overflow: hidden; */
 }
 
 .image-hero {
