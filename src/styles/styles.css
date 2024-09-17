@@ -65,3 +65,38 @@
         background-position: 0% 50%;
     }
 }
+
+.skills {
+    padding-block: 50px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.skills-list,
+.hobbies-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.skills-list li,
+.hobbies-list li {
+    background-color: var(--quartiary-color);
+    width: 176px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 10px;
+}
+
+.skills-list li p,
+.hobbies-list li p {
+    font-size: 1.2rem;
+    margin-block: 10px;
+}
