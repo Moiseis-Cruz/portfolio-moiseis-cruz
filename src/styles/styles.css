@@ -62,7 +62,7 @@
 }
 
 .skills {
-    padding-block: 50px;
+    padding-block: 20px;
 }
 
 .subtitle {
@@ -88,6 +88,8 @@
     flex-direction: column;
     justify-content: end;
     padding-left: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 0 15px;
 }
 
 .skills-list li p,
