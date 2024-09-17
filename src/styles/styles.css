@@ -1,20 +1,35 @@
 .hero {
-    background-color: darkgray;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
 }
 
+.hero-presentation {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.name-hero {
+    font-size: 3.5rem;
+    /* margin-top: 10px; */
+}
+
+/* .cargo-hero {
+    margin-top: 15px;
+} */
+
 .contacts-list {
-    background-color: blanchedalmond;
     font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .container-hero-image {
     width: 450px;
     height: 450px;
     background-color: blue;
+    border-radius: 50%;
+    overflow: hidden;
 }
