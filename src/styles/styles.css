@@ -108,5 +108,9 @@
 }
 
 .footer-name {
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+
+.footer-data {
+    font-size: 1.4rem;
 }
