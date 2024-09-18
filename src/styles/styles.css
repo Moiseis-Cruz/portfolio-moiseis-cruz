@@ -97,3 +97,12 @@
     font-size: 1.2rem;
     margin-block: 10px;
 }
+
+.footer {
+    background-color: darkkhaki;
+    min-height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
