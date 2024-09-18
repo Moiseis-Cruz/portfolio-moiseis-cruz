@@ -106,3 +106,7 @@
     align-items: center;
     flex-direction: column;
 }
+
+.footer-name {
+    font-size: 2rem;
+}
