@@ -9,6 +9,10 @@
     .hero-presentation {
         margin-top: 60px;
     }
+
+    .footer-name {
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width: 425px) {
@@ -38,5 +42,17 @@
     .skills-list li p,
     .hobbies-list li p {
         font-size: 1rem;
+    }
+
+    .footer {
+        gap: 5px;
+    }
+
+    .footer-name {
+        font-size: 1.4rem;
+    }
+    
+    .footer-data {
+        font-size: 1.2rem;
     }
 }
