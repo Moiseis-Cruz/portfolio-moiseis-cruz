@@ -112,7 +112,7 @@
     align-items: center;
     gap: 20px;
     margin-top: 60px;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .card:nth-child(even){
@@ -124,8 +124,33 @@
 }
 
 .name-card-project{
-    /* background-color: red; */
-    font-size: 1rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.technologies-card-project {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.card-button-container {
+    display: flex;
+    gap: 15px;
+}
+
+.card-button-container .btn {
+    padding: 16px;
+    font-size: 1.6rem;
+}
+
+.card-button-container .btn:first-child{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card-button-container .btn:last-child{
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 .footer {
