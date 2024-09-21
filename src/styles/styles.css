@@ -98,8 +98,33 @@
     margin-block: 10px;
 }
 
+.projects {
+    padding-block: 50px;
+}
+
+/* .List-cards {
+    background-color: brown;
+} */
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+    background-color: blanchedalmond;
+}
+
+.card:nth-child(even){
+    flex-direction: row-reverse;
+    background-color: palevioletred;
+}
+
+.gif-card {
+    max-width: 800px;
+}
+
 .footer {
-    background-color: darkkhaki;
     min-height: 104px;
     display: flex;
     justify-content: center;
