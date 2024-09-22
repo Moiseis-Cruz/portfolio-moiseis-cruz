@@ -112,7 +112,6 @@
     align-items: center;
     gap: 20px;
     margin-top: 60px;
-    /* background-color: brown; */
 }
 
 .card:nth-child(even){
