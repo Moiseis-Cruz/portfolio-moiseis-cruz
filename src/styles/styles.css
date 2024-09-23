@@ -109,12 +109,12 @@
     justify-content: center;
 }
 
-/* .card {
+.card {
     max-width: 400px;
     padding: 10px;
     border: 2px solid black;
     text-align: center;
-} */
+}
 
 /* .name-card-project {
     font-size: 1.8rem;
