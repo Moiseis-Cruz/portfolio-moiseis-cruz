@@ -128,6 +128,16 @@
     margin-top: 10px;
 }
 
+.card-button-container {
+    background-color: green;
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+
+
 /* .card {
     display: flex;
     justify-content: center;
