@@ -136,7 +136,11 @@
     justify-content: center;
 }
 
-
+.card-button-container .btn {
+    padding: 16px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 3px 3px black;
+}
 
 /* .card {
     display: flex;
