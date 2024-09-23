@@ -118,18 +118,15 @@
 
 .name-card-project {
     font-size: 1.8rem;
-    background-color: red;
     margin-top: 10px;
 }
 
 .technologies-card-project {
-    background-color: palevioletred;
     font-size: 1.2rem;
     margin-top: 10px;
 }
 
 .card-button-container {
-    background-color: green;
     display: flex;
     gap: 15px;
     margin-top: 15px;
@@ -140,6 +137,17 @@
     padding: 16px;
     font-size: 1.2rem;
     box-shadow: 0 0 3px 3px black;
+    border-radius: 8px;
+}
+
+.card-button-container .btn:first-child{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card-button-container .btn:last-child{
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 /* .card {
