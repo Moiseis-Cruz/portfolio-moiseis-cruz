@@ -102,15 +102,31 @@
     padding-block: 50px;
 }
 
-.List-cards {
-    background-color: brown;
+.list-cards {
     display: flex;
+    gap: 15px;
+    margin-top: 50px;
+    justify-content: center;
 }
 
-.card {
-    background-color: red;
+/* .card {
     max-width: 400px;
-}
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+} */
+
+/* .name-card-project {
+    font-size: 1.8rem;
+    background-color: red;
+    margin-top: 10px;
+} */
+
+/* .technologies-card-project {
+    background-color: palevioletred;
+    font-size: 1.2rem;
+    margin-top: 10px;
+} */
 
 /* .card {
     display: flex;
