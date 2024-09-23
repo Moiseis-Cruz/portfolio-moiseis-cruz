@@ -102,7 +102,17 @@
     padding-block: 50px;
 }
 
+.List-cards {
+    background-color: brown;
+    display: flex;
+}
+
 .card {
+    background-color: red;
+    max-width: 400px;
+}
+
+/* .card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +164,7 @@
 .card-button-container .btn:last-child{
     background-color: var(--primary-color);
     color: var(--tertiary-color);
-}
+} */
 
 .footer {
     min-height: 104px;
