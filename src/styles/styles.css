@@ -157,67 +157,12 @@
 
 .card-button-container .btn:hover {
     opacity: 0.7;
-    /* box-shadow: inset 0 0 3px 3px black; */
 }
 
 .card-button-container .btn:active {
     opacity: 1;
     box-shadow: inset 0 0 3px 3px black;
 }
-
-/* .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-top: 60px;
-    width: 1200px;
-    margin-inline: auto;
-    box-shadow: -3px 3px 3px 3px black;
-}
-
-.card:nth-child(even){
-    flex-direction: row-reverse;
-}
-
-.gif-card {
-    max-width: 800px;
-}
-
-.name-card-project{
-    font-size: 2.2rem;
-    font-weight: 700;
-}
-
-.technologies-card-project {
-    font-size: 1rem;
-    font-weight: 500;
-    margin-top: 15px;
-}
-
-.card-button-container {
-    display: flex;
-    gap: 15px;
-    margin-top: 15px;
-}
-
-.card-button-container .btn {
-    padding: 16px;
-    font-size: 1.2rem;
-    box-shadow: 0 0 3px 3px black;
-}
-
-.card-button-container .btn
-
-.card-button-container .btn:first-child{
-    border: 2px solid var(--primary-color);
-    color: var(--primary-color);
-}
-
-.card-button-container .btn:last-child{
-    background-color: var(--primary-color);
-    color: var(--tertiary-color);
-} */
 
 .footer {
     min-height: 104px;
