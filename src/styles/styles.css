@@ -109,7 +109,7 @@
     justify-content: flex-start;
     padding-block: 15px;
     padding: 20px;
-    max-width: 1265px;
+    max-width: 1208px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-padding-left: 20px;
@@ -118,7 +118,7 @@
 }
 
 .card {
-    min-width: 400px;
+    min-width: 380px;
     padding: 10px;
     border: 2px solid black;
     text-align: center;
@@ -134,13 +134,15 @@
 }
 
 .name-card-project {
-    font-size: 1.8rem;
-    margin-top: 10px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    height: 70px;
 }
 
 .technologies-card-project {
-    font-size: 1.2rem;
-    margin-top: 10px;
+    font-size: 1rem;
+    margin-top: 5px;
 }
 
 .card-button-container {
