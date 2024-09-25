@@ -105,20 +105,28 @@
 .list-cards {
     display: flex;
     gap: 15px;
-    margin-top: 50px;
-    justify-content: center;
-    background-color: rgb(182, 253, 182);
+    margin: 50px auto 0;
+    justify-content: flex-start;
     padding-block: 15px;
-    
-    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1265px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 20px;
+    border: 2px solid black;
+    background-color: var(--quartiary-color);
 }
 
 .card {
-    max-width: 400px;
+    min-width: 400px;
     padding: 10px;
     border: 2px solid black;
     text-align: center;
     border-radius: 15px 0 15px 0;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--tertiary-color);
 }
 
 .gif-card {
