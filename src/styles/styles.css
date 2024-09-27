@@ -115,6 +115,21 @@
     margin-block: 10px;
 }
 
+.certificates {
+    background-color: blanchedalmond;
+    padding-block: 55px;
+}
+
+.certificates .list-certificates {
+    background-color: chocolate;
+    display: flex;
+    gap: 15px;
+}
+
+.certificates .list-certificates .card {
+    background-color: black;
+}
+
 .projects {
     padding-block: 50px;
 }
