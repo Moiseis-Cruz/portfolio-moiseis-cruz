@@ -116,7 +116,6 @@
 }
 
 .certificates {
-    background-color: blanchedalmond;
     padding-block: 55px;
 }
 
@@ -136,7 +135,6 @@
 }
 
 .certificates .list-certificates .certificate-card {
-    background-color: black;
     min-width: 380px;
     padding: 10px;
     border: 2px solid black;
@@ -146,6 +144,20 @@
     display: flex;
     flex-direction: column;
     background-color: var(--tertiary-color);
+}
+
+.certificates .list-certificates .certificate-date {
+    font-size: 1.4rem;
+}
+
+.certificates .list-certificates .certified-title {
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.certificate-description {
+    font-size: 1.2rem;
+    margin-top: 15px;
 }
 
 .projects {
