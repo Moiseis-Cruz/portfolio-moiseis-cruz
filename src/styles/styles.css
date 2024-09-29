@@ -135,8 +135,17 @@
     background-color: var(--quartiary-color);
 }
 
-.certificates .list-certificates .card {
+.certificates .list-certificates .certificate-card {
     background-color: black;
+    min-width: 380px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 15px 0 15px 0;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--tertiary-color);
 }
 
 .projects {
