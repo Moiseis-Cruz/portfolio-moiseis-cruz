@@ -136,6 +136,7 @@
 
 .certificates .list-certificates .certificate-card {
     min-width: 380px;
+    max-width: 400px;
     padding: 10px;
     border: 2px solid black;
     text-align: center;
@@ -156,7 +157,7 @@
 }
 
 .certificate-description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 15px;
 }
 
