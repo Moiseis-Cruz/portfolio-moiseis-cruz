@@ -1,6 +1,7 @@
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-inline: 30px;
     align-items: center;
     min-height: 100vh;
     background-color: var(--tertiary-color);
@@ -80,11 +81,6 @@
 
 .skills {
     padding-block: 20px;
-}
-
-.subtitle {
-    text-align: center;
-    margin-top: 60px;
 }
 
 .skills-list,
