@@ -42,12 +42,12 @@
     margin: auto;
     border-radius: 50%;
     box-shadow: 0 0 3px 3px var(--primary-color);
-    
     background: linear-gradient(to right, var(--primary-color), var(--quartiary-color));
     background-size: 280% 280%;
     animation: gradient-animation 5s ease infinite;
 
 }
+
 @keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
@@ -61,10 +61,6 @@
         background-position: 0% 50%;
     }
 }
-
-/* .about {
-    background-color: blanchedalmond;
-} */
 
 .container-about {
     margin-inline: auto;
