@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    main {
+        padding-inline: 20px;
+    }
+
     .hero {
         flex-direction: column-reverse;
         padding: 100px 10px;
@@ -16,6 +20,10 @@
 }
 
 @media (max-width: 425px) {
+    main {
+        padding-inline: 10px;
+    }
+
     .contacts-list {
         font-size: 1rem;
         display: flex;
