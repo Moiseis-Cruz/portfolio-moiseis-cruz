@@ -21,14 +21,23 @@
 }
 
 .contacts-list {
-    font-size: 1.2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 30px;
+    gap: 20px;
 }
 
-.contacts-list a {
+.contacts-list a i{
     color: var(--primary-color);
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: -3px -3px 3px rgb(175, 175, 175),
+    3px 3px 3px rgb(2, 2, 2);
 }
 
 .container-hero-image {
@@ -165,7 +174,7 @@
     gap: 15px;
     margin: 50px auto 0;
     height: 430px;
-    padding-block: 15px;
+    padding: 15px;
     overflow-x: scroll;
     border: 2px solid black;
     background-color: var(--quartiary-color);
