@@ -14,6 +14,10 @@
         margin-top: 60px;
     }
 
+    .card {
+        max-width: 340px;
+    }
+
     .footer-name {
         font-size: 1.6rem;
     }

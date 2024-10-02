@@ -70,7 +70,7 @@
         right: 20px;
         display: flex;
         flex-direction: column;
-        background-color: #fff;
+        background-color: var(--quartiary-color);
         padding: 10px;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
