@@ -17,6 +17,16 @@
     .footer-name {
         font-size: 1.6rem;
     }
+
+    .footer .footer-grid {
+        grid-template-columns: repeat(2, minmax(100px, 400px));
+        grid-template-rows: repeat(2, auto);
+        gap: 35px;
+    }
+
+    .footer .contacts-box {
+        align-items: start;
+    }
 }
 
 @media (max-width: 425px) {
@@ -53,6 +63,7 @@
 
     .footer {
         gap: 5px;
+        padding-inline: 10px;
     }
 
     .footer-name {
@@ -61,5 +72,14 @@
     
     .footer-data {
         font-size: 1.2rem;
+    }
+
+    .footer .navigation-buttons-box {
+        text-align: left;
+    }
+
+    .footer .footer-grid {
+        grid-template-columns: minmax(100px, 400px);
+        row-gap: 55px;
     }
 }
