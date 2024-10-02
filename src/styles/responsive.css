@@ -18,6 +18,10 @@
         max-width: 340px;
     }
 
+    .footer {
+        padding-inline: 15px;
+    }
+
     .footer-name {
         font-size: 1.6rem;
     }
