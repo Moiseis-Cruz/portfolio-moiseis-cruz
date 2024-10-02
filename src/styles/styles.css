@@ -263,3 +263,24 @@
     font-weight: 500;
     margin-top: 40px;
 }
+
+.footer .copyright-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .footer-message {
+    font-size: 1.1rem;
+}
+
+.footer .warning {
+    font-size: 1.1rem;
+}
+
+.navigation-buttons-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+    gap: 1rem;
+}

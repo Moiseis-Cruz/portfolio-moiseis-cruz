@@ -1,3 +1,8 @@
+window.scroll({
+    top: 0,
+    behavior: "smooth"
+});
+
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.header-buttons-content');
 const navLinks = document.querySelectorAll('.nav-link');
