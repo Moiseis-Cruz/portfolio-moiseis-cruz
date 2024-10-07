@@ -198,11 +198,9 @@
     letter-spacing: 1px;
     margin-top: 5px;
     height: 70px;
-    /* background-color: bisque; */
 }
 
 .description-card-projects {
-    /* background-color: blue; */
     font-size: 1.1rem;
     height: 120px;
     overflow-y: scroll;
@@ -212,7 +210,6 @@
 .technologies-card-project {
     font-size: 1rem;
     margin-top: 5px;
-    /* background-color: brown; */
 }
 
 .card-button-container {
