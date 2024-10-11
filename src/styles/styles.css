@@ -249,6 +249,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding-bottom: 85px;
 }
 
 .form-section form {
@@ -259,10 +260,12 @@
     width: 100%;
     align-self: center;
     margin-top: 35px;
+    background-color: var(--secundary-color);
+    padding: 10px 45px;
 }
 
 .form-section form label {
-    color: var(--primary-color);
+    color: var(--quartiary-color);
     font-size: 1.2rem;
     margin-bottom: 4px;
 }
