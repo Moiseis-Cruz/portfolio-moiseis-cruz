@@ -246,7 +246,6 @@
 }
 
 .form-section {
-    background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -254,7 +253,6 @@
 }
 
 .form-section form {
-    background-color: brown;
     display: flex;
     flex-direction: column;
     max-width: 500px;
