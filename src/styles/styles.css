@@ -265,8 +265,16 @@
 
 .form-section form label {
     color: var(--primary-color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 4px;
+}
+
+.form-section form input {
+    padding: 15px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.5s;
 }
 
 .footer {
