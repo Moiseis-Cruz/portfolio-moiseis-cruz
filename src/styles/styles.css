@@ -247,16 +247,14 @@
 
 .form-section {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
     flex-direction: column;
-    background-color: brown;
     min-height: 100vh;
 }
 
 .form-section form {
     display: flex;
     flex-direction: column;
+    gap: 15px;
     max-width: 500px;
     width: 100%;
     align-self: center;
