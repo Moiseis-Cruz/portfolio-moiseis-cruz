@@ -262,6 +262,7 @@
     margin-top: 35px;
     background-color: var(--secundary-color);
     padding: 10px 45px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .form-section form label {
@@ -280,7 +281,6 @@
 
 .form-section form input:focus {
     border-radius: 16px;
-    border: 5px solid #fac;
 }
 
 .form-section form textarea {
@@ -290,11 +290,12 @@
     font-size: 15px;
     margin-bottom: 30px;
     transition: all 0.5s;
+    resize: none;
+    font-family: "Montserrat", sans-serif;
 }
 
 .form-section form textarea:focus {
     border-radius: 16px;
-    border: 5px solid #fac;
 }
 
 .form-section form button {
