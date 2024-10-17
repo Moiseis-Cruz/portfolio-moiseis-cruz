@@ -18,3 +18,21 @@ navLinks.forEach(link => {
         hamburger.classList.remove('open');
     });
 });
+
+
+/* VALIDAÇÃO DE FORMULÁRIO */
+
+const contactForm = document.querySelector("form");
+
+contactForm.addEventListener("submit", () => {
+    console.log(`Clicou`);
+});
+
+
+/*
+
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const message = document.getElementById("message");
+
+*/
