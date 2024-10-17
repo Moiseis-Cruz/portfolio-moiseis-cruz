@@ -23,10 +23,21 @@ navLinks.forEach(link => {
 /* VALIDAÇÃO DE FORMULÁRIO */
 
 const contactForm = document.querySelector("form");
-const name = document.getElementById("name");
-const email = document.getElementById("email");
-const message = document.getElementById("message");
 
-contactForm.addEventListener("submit", () => {
-    console.log(`Clicou`);
+
+contactForm.addEventListener("submit", (evente) => {
+    evente.preventDefault();
+
+    const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    const message = document.getElementById("message");
+
+    const nameValue = name.value;
+    const emailValue = email.value;
+    const messageValue = message.value;
+
+    if (nameValue === "") {
+        name.classList.add("active");
+    };
+
 });
