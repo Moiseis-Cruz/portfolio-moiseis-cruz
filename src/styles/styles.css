@@ -279,10 +279,6 @@
     transition: all 0.5s;
 }
 
-.form-section form input:focus {
-    border-radius: 16px;
-}
-
 .form-section form textarea {
     padding: 10px;
     outline: none;
@@ -294,7 +290,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.form-section form textarea:focus {
+.form-section form input:focus, .form-section form textarea:focus {
     border-radius: 16px;
 }
 

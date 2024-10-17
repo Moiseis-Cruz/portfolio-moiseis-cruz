@@ -26,6 +26,8 @@ const contactForm = document.querySelector("form");
 
 
 contactForm.addEventListener("submit", (evente) => {
+    console.log(evente);
+    
     evente.preventDefault();
 
     const name = document.getElementById("name");
