@@ -67,6 +67,8 @@
             <div class="container-about">
                 <h2 class="subtitle">Sobre mim</h2>
 
+                <!-- <img src="./src/assets/images/image-profile.png" alt="" style="width: 300px; float: inline-end;"/> -->
+
                 <p class="description-about">Me chamo Moiseis Cruz, tenho 33 anos e minha paixão por programação começou na infância. Com dois anos de experiência em desenvolvimento, me especializei em Front-end. Destaco-me pela habilidade única de integrar programação de design, contribuindo tanto para o desenvolvimento de códigos eficientes quanto para a criação de interfaces intuitivas e atraentes. Acredito firmemente que a combinação de estética e funcionalidade resulta em experiências online verdadeiramente memoráveis.</p>
 
                 <p class="description-about">Eu sou apaixonado por JavaScript, minha ferramenta predileta, e busco diariamente novas formas de aprimorar minhas capacidades. Essa linguagem versátil me motiva a criar aplicações dinâmicas e interativas, proporcionando uma experiência envolvente para o usuários. Atualmente, atuo como freelancer, onde abraço a diversidade de projetos e enfrento desafio que constantemente estimulam meu crescimento profissional, incentivando minha busca contínua por aprendizado.</p>
@@ -261,17 +263,17 @@
 
             <form action="https://api.staticforms.xyz/submit" method="post">
                 <label for="name">Nome</label>
-                <input type="text" name="name" id="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <input class="typing-input" type="text" name="name" id="name" placeholder="Digite seu nome" autocomplete="off" required>
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off" required>
-                <!-- <label for="subject">Assunto</label> -->
-                <!-- <input type="text" name="subject" id="subject" placeholder="Assunto" autocomplete="off" required/> -->
+                <input class="typing-input" type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off" required>
+                <label for="subject">Assunto</label>
+                <input type="text" name="subject" id="subject" placeholder="Assunto..." />
                 <label for="message">Mensagem</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <textarea class="typing-input" name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
                 <button type="submit">Enviar</button>
 
                 <input type="hidden" name="accessKey" value="6c8b5592-a5ce-4de1-9ad1-034c62eff325">
-                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5502/index.html">
+                <!-- <input type="hidden" name="redirectTo" value="http://127.0.0.1:5502/index.html"> -->
             </form>
 
         </section>
@@ -299,8 +301,8 @@
                 <p>me siga</p>
 
                 <ul class="contact-list">
-                    <li><a href="https://www.linkedin.com/in/mois%C3%A9s-cruz-b88990248/"> <i class="fa-brands fa-linkedin"></i> </a></li>
-                    <li><a href="https://github.com/Moiseis-Cruz"> <i class="fa-brands fa-github"></i> </a></li>
+                    <li><a href="https://www.linkedin.com/in/mois%C3%A9s-cruz-b88990248/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a></li>
+                    <li><a href="https://github.com/Moiseis-Cruz" target="_blank"> <i class="fa-brands fa-github"></i> </a></li>
                     <li><a href="https://discord.com/channels/@me/1095845561330053131" target="_blank"> <i class="fa-brands fa-discord"></i> </a></li>
                     <li><a href="https://wa.me/5575982479640" target="_blank" <i class="fa-brands fa-whatsapp"></i> </a></li>
                     <li><a href="mailto:moizzito@gmail.com" target="_blank" <i class="fa-solid fa-square-envelope"></i> </a></li>
