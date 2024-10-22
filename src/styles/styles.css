@@ -294,6 +294,10 @@
     border-radius: 16px;
 }
 
+/* .form-section form input.invalid, .form-section form textarea.invalid {
+    border: 2px solid red;
+} */
+
 .form-section form button {
     padding: 15px;
     cursor: pointer;

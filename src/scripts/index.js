@@ -25,21 +25,15 @@ navLinks.forEach(link => {
 const contactForm = document.querySelector("form");
 
 
-contactForm.addEventListener("submit", (evente) => {
-    console.log(evente);
-    
-    evente.preventDefault();
+contactForm.addEventListener("submit", (event) => {
+    event.preventDefault();
 
-    const name = document.getElementById("name");
-    const email = document.getElementById("email");
-    const message = document.getElementById("message");
+    let inputs = document.querySelectorAll(".typing-input");
 
-    const nameValue = name.value;
-    const emailValue = email.value;
-    const messageValue = message.value;
-
-    if (nameValue === "") {
-        name.classList.add("active");
-    };
+    inputs.forEach((input, i) => {
+        if(input.value === ""){
+            inputs[i].classList.add("invalid")
+        }
+    });
 
 });
