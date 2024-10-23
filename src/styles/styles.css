@@ -249,12 +249,16 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: var(--quartiary-color);
     padding-bottom: 85px;
+}
+
+.form-section .message {
+    width: 50%;
 }
 
 .form-section form {
     background-color: var(--secundary-color);
+    color: var(--quartiary-color);
     max-width: 500px;
     width: 100%;
     padding: 20px;
