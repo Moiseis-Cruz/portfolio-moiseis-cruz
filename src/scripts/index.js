@@ -26,7 +26,7 @@ const contactForm = document.querySelector("form");
 
 
 contactForm.addEventListener("submit", (event) => {
-    event.preventDefault();
+    // event.preventDefault();
 
     let inputs = document.querySelectorAll(".typing-input");
 

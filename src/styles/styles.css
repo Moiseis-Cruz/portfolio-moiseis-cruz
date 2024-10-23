@@ -252,6 +252,43 @@
     padding-bottom: 85px;
 }
 
+form {
+    background-color: cadetblue;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+}
+
+.form-control {
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+input, textarea {
+    border: none;
+    width: 100%;
+    resize: none;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+textarea {
+    height: 114px;
+}
+
+button {
+    width: 100%;
+    padding-block: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/*
 .form-section form {
     display: flex;
     flex-direction: column;
@@ -294,10 +331,6 @@
     border-radius: 16px;
 }
 
-/* .form-section form input.invalid, .form-section form textarea.invalid {
-    border: 2px solid red;
-} */
-
 .form-section form button {
     padding: 15px;
     cursor: pointer;
@@ -314,6 +347,7 @@
     color: #101026;
     border-radius: 16px;
 }
+*/
 
 .footer {
     min-height: 104px;
