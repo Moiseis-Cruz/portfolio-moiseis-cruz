@@ -247,16 +247,13 @@
 
 .form-section {
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     min-height: 100vh;
     color: var(--quartiary-color);
     padding-bottom: 85px;
-    /* background-color: rebeccapurple; */
 }
 
 .form-section form {
-    background-color: cadetblue;
     background-color: var(--secundary-color);
     max-width: 500px;
     width: 100%;
@@ -301,75 +298,17 @@ form button {
     font-weight: 600;
     border: none;
     transition: all 1s;
-}
-
-.form-section form button:hover {
-    background-color: #f5f5f5;
-    color: #101026;
-    border-radius: 16px;
-    cursor: pointer;
-}
-
-/*
-.form-section form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 500px;
-    width: 100%;
-    align-self: center;
-    margin-top: 35px;
-    background-color: var(--secundary-color);
-    padding: 10px 45px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-
-.form-section form label {
-    color: var(--quartiary-color);
-    font-size: 1.2rem;
-    margin-bottom: 4px;
-}
-
-.form-section form input {
-    padding: 15px;
-    outline: none;
-    border: none;
-    font-size: 1rem;
-    transition: all 0.5s;
-}
-
-.form-section form textarea {
-    padding: 10px;
-    outline: none;
-    border: none;
-    font-size: 15px;
-    margin-bottom: 30px;
-    transition: all 0.5s;
-    resize: none;
-    font-family: "Montserrat", sans-serif;
-}
-
-.form-section form input:focus, .form-section form textarea:focus {
-    border-radius: 16px;
-}
-
-.form-section form button {
-    padding: 15px;
-    cursor: pointer;
-    font-size: 16px;
     background-color: transparent;
     border: 2px solid #f5f5f5;
     color: #f5f5f5;
-    transition: all 1s;
-    margin-bottom: 20px;
 }
 
 .form-section form button:hover {
-    background-color: #f5f5f5;
+    background-color: var(--quartiary-color);
     color: #101026;
     border-radius: 16px;
+    cursor: pointer;
 }
-*/
 
 .footer {
     min-height: 104px;
