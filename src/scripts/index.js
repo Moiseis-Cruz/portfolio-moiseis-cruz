@@ -3,6 +3,20 @@ window.scroll({
     behavior: "smooth"
 });
 
+const togglerBtn = document.getElementById("toggler-button");
+const contentBtn = document.getElementById("button-content");
+const body = document.querySelector("body");
+
+togglerBtn.addEventListener("change", () => {
+    if(togglerBtn.checked){
+        contentBtn.innerHTML = `<i class="fa-regular fa-moon"></i>`
+        body.setAttribute("data-themes", "dark");
+    }else{
+        contentBtn.innerHTML = `<i class="fa-sharp fa-regular fa-sun"></i>`;
+        body.setAttribute("data-themes", "light")
+    };
+});
+
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.header-buttons-content');
 const navLinks = document.querySelectorAll('.nav-link');
@@ -26,14 +40,16 @@ const contactForm = document.querySelector("form");
 
 
 contactForm.addEventListener("submit", (event) => {
-    // event.preventDefault();
+    event.preventDefault();
 
-    let inputs = document.querySelectorAll(".typing-input");
+    let inputs = document.querySelectorAll("#name, #email, #subject, textarea");
+
+    console.log(inputs);
 
     inputs.forEach((input, i) => {
         if(input.value === ""){
-            inputs[i].classList.add("invalid")
-        }
+            inputs[i].classList.add("invalid");
+        };
     });
 
 });
