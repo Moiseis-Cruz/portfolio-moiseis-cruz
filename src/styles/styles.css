@@ -292,6 +292,10 @@
     resize: none;
 }
 
+.form-control input.invalid, textarea.invalid {
+    background-color: blue;
+}
+
 .form-section form input:focus, .form-section form textarea:focus {
     border-radius: 16px;
 }
