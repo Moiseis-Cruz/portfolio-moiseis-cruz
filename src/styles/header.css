@@ -16,6 +16,20 @@
     font-size: 2rem;
 }
 
+#toggler-button{
+    display: none;
+}
+
+#button-content {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
 .header-buttons-content {
     display: flex;
     gap: 20px;
