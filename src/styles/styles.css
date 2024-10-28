@@ -205,6 +205,8 @@
     height: 120px;
     overflow-y: scroll;
     border: 3px solid var(--primary-color);
+    padding-inline: 3px;
+    text-align: left;
 }
 
 .technologies-card-project {
@@ -298,6 +300,7 @@
 
 .form-section form input:focus, .form-section form textarea:focus {
     border-radius: 16px;
+    border-bottom: 4px solid var(--primary-color);
 }
 
 form button {
