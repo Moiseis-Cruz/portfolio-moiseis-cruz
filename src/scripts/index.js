@@ -38,17 +38,16 @@ navLinks.forEach(link => {
 
 const contactForm = document.querySelector("form");
 
+let formControls = document.querySelectorAll(".form-control");
+
+let inputs = document.querySelectorAll("#name, #email, #subject, textarea");
 
 contactForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    let inputs = document.querySelectorAll("#name, #email, #subject, textarea");
-
-    console.log(inputs);
-
+    
     inputs.forEach((input, i) => {
         if(input.value === ""){
-            inputs[i].classList.add("invalid");
+            event.preventDefault();
+            formControls[i].classList.toggle("invalid");
         };
     });
 
