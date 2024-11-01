@@ -293,8 +293,9 @@
     resize: none;
 }
 
-.form-control input.invalid, textarea.invalid {
+.form-control.invalid input,.form-control.invalid textarea {
     background-color: blue;
+    border: 3px solid red;
 }
 
 .form-section form input:focus, .form-section form textarea:focus {
@@ -316,7 +317,7 @@ form button {
 
 .form-section form button:hover {
     background-color: var(--quartiary-color);
-    color: #101026;
+    color: var(--primary-color);
     border-radius: 16px;
     cursor: pointer;
 }
