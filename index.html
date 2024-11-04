@@ -18,14 +18,15 @@
             <h2>Moiseis Cruz</h2>
         </div>
 
-        <input type="checkbox" name="toggler-button" id="toggler-button">
-
-        <label for="toggler-button" id="button-content">
-            <i class="fa-sharp fa-regular fa-sun"></i>
-        </label>
-
         <nav>
             <ul class="header-buttons-content">
+                <li>
+                    <input type="checkbox" name="toggler-button" id="toggler-button">
+    
+                    <label for="toggler-button" id="button-content">
+                        <i class="fa-sharp fa-regular fa-sun"></i>
+                    </label>
+                </li>
                 <li><a href="#about" class="nav-link">Sobre mim</a></li>
                 <li><a href="#skills" class="nav-link">Habilidades</a></li>
                 <li><a href="#projects" class="nav-link">Projetos</a></li>
@@ -272,21 +273,25 @@
                 <div class="form-control">
                     <label for="name">Nome</label>
                     <input type="text" name="name" id="name" placeholder="Nome">
+                    <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
                 </div>
                 
                 <div class="form-control">
                     <label for="email">E-mail</label>
                     <input type="email" name="email" id="email" placeholder="e-mail">
+                    <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
                 </div>
                 
                 <div class="form-control">
                     <label for="subject">Assunto</label>
                     <input type="text" name="subject" id="subject" placeholder="assunto...">
+                    <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
                 </div>
                 
                 <div class="form-control">
                     <label for="message">Mensagem</label>
                     <textarea name="message" id="message" placeholder="Mensagem..."></textarea>
+                    <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
                 </div>
 
                 <input type="hidden" name="redirectTo" value="http://127.0.0.1:5504/index.html">
