@@ -35,12 +35,18 @@
     gap: 20px;
     list-style: none;
     font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-buttons-content li a {
     text-decoration: none;
     color: var(--primary-color);
     font-weight: 500;
+}
+
+.header-buttons-content li:nth-child(1){
+    align-self: flex-start;
 }
 
 .hamburger {
@@ -71,6 +77,13 @@
 
 .hamburger.open .bar:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media (min-width: 769px) {
+    .header-buttons-content li:nth-child(1){
+        order: 3;
+        align-self: flex-start;
+    }
 }
 
 @media (max-width: 768px) {
