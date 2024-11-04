@@ -270,6 +270,7 @@
 
 .form-section form .form-control {
     margin-bottom: 25px;
+    position: relative;
 }
 
 .form-control label {
@@ -293,9 +294,22 @@
     resize: none;
 }
 
+.form-control .icon-error {
+    width: 24px;
+    height: auto;
+    position: absolute;
+    display: none;
+    bottom: 15px;
+    right: 15px;
+}
+
 .form-control.invalid input,.form-control.invalid textarea {
-    background-color: blue;
-    border: 3px solid red;
+    /* background-color: blue; */
+    border: 3px solid hsl(0, 100%, 74%);
+}
+
+.form-control.invalid .icon-error {
+    display: inline-block;
 }
 
 .form-section form input:focus, .form-section form textarea:focus {
