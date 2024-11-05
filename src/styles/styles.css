@@ -278,12 +278,6 @@
     position: relative;
 }
 
-.form-control label {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    display: inline-block;
-}
-
 .form-control input, textarea {
     border: none;
     width: 100%;
@@ -308,8 +302,18 @@
     right: 15px;
 }
 
+.form-section form .form-control small {
+    font-size: 1rem;
+    color: hsl(0, 100%, 74%);
+    display: none;
+}
+
 .form-control.invalid input,.form-control.invalid textarea {
     border: 3px solid hsl(0, 100%, 74%);
+}
+
+.form-section form .form-control.invalid small {
+    display: block;
 }
 
 .form-control.invalid .icon-error {
