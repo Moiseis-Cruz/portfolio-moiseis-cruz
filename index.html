@@ -266,43 +266,55 @@
             </ul>
         </section>
 
-        <section class="form-section">
+        <section >
 
             <h2 class="subtitle">Contato</h2>
 
-            <h3>Vamos conversar...</h3>
+            <div class="form-section">
 
-            <p class="message">Estou pronto para facilitar a sua vida! Seja para solicitar um orçamento personalizado, esclarecer dúvidas ou agendar algo especial, o ponto de partida é simples: preencha meu formulário rápido, Inicie sua jornada em direção a soluções feitas especificamente para você.</p>
+                <div>
 
-            <form action="https://api.staticforms.xyz/submit" method="post">
-                <input type="hidden" name="accessKey" value="6c8b5592-a5ce-4de1-9ad1-034c62eff325">
-                <div class="form-control">
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name" placeholder="Nome">
-                    <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
+                    <h3>Vamos conversar...</h3>
+    
+                    <p class="message">Estou pronto para facilitar a sua vida! Seja para solicitar um orçamento personalizado, esclarecer dúvidas ou agendar algo especial, o ponto de partida é simples: preencha meu formulário rápido, Inicie sua jornada em direção a soluções feitas especificamente para você.</p>
+    
+                    <img src="./src/assets/images/comunicacao2.png" alt="" style="max-width: 550px;"/>
+    
                 </div>
-                
-                <div class="form-control">
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="e-mail">
-                    <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
-                </div>
-                
-                <div class="form-control">
-                    <label for="subject">Assunto</label>
-                    <input type="text" name="subject" id="subject" placeholder="assunto...">
-                    <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
-                </div>
-                
-                <div class="form-control">
-                    <label for="message">Mensagem</label>
-                    <textarea name="message" id="message" placeholder="Mensagem..."></textarea>
-                    <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
-                </div>
+    
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="6c8b5592-a5ce-4de1-9ad1-034c62eff325">
+                    <div class="form-control">
+                        <!-- <label for="name">Nome</label> -->
+                        <input type="text" name="name" id="name" placeholder="Nome">
+                        <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
+                    </div>
+                    
+                    <div class="form-control">
+                        <!-- <label for="email">E-mail</label> -->
+                        <input type="email" name="email" id="email" placeholder="e-mail">
+                        <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
+                    </div>
+                    
+                    <div class="form-control">
+                        <!-- <label for="subject">Assunto</label> -->
+                        <input type="text" name="subject" id="subject" placeholder="assunto...">
+                        <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
+                    </div>
+                    
+                    <div class="form-control">
+                        <!-- <label for="message">Mensagem</label> -->
+                        <textarea name="message" id="message" placeholder="Mensagem..."></textarea>
+                        <img class="icon-error" src="./src/assets/images/icon-error.svg" alt="" />
+                    </div>
+    
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5504/index.html">
+                    <button type="submit">Enviar</button>
+                </form>
 
-                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5504/index.html">
-                <button type="submit">Enviar</button>
-            </form>
+            </div>
+
+            
 
         </section>
     </main>
