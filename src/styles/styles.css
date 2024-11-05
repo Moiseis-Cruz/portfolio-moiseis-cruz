@@ -72,8 +72,13 @@
 }
 
 .container-about {
-    margin-inline: auto;
-    max-width: 1136px;
+    /* margin-inline: auto; */
+    /* max-width: 1136px; */
+    margin-top: 55px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about .subtitle {
@@ -82,6 +87,11 @@
 
 .about .description-about{
     margin-top: 35px;
+}
+
+.about .profile-section-about{
+    /* background-color: pink; */
+    /* width: 700px; */
 }
 
 .skills {
