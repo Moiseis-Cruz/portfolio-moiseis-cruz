@@ -247,12 +247,10 @@
 
 .form-section {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-evenly;
     align-items: center;
     min-height: 100vh;
     padding-bottom: 85px;
-    /* background-color: rebeccapurple; */
 }
 
 .form-section h3 {
@@ -271,7 +269,6 @@
     max-width: 500px;
     width: 100%;
     padding: 20px;
-    /* align-self: center; */
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     margin-top: 45px;
 }
