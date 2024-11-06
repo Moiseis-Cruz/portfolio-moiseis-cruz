@@ -326,8 +326,8 @@ form button {
     border: none;
     transition: all 1s;
     background-color: transparent;
-    border: 2px solid #f5f5f5;
-    color: #f5f5f5;
+    border: 2px solid var(--secundary-color);
+    color: var(--secundary-color);
 }
 
 .form-section form button:hover {
