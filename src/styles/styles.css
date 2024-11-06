@@ -54,7 +54,6 @@
     background: linear-gradient(to right, var(--primary-color), var(--quartiary-color));
     background-size: 280% 280%;
     animation: gradient-animation 5s ease infinite;
-
 }
 
 @keyframes gradient-animation {
@@ -65,7 +64,7 @@
     50% {
         background-position: 100% 50%;
     }
-
+    
     100% {
         background-position: 0% 50%;
     }
@@ -146,12 +145,7 @@
     background-color: var(--tertiary-color);
 }
 
-.certificates .list-certificates .certificate-date {
-    font-size: 1.4rem;
-}
-
 .certificates .list-certificates .certified-title {
-    font-size: 1.4rem;
     margin-top: 10px;
 }
 
@@ -264,7 +258,6 @@
 }
 
 .form-section form {
-    /* background-color: var(--secundary-color); */
     color: var(--quartiary-color);
     max-width: 500px;
     width: 100%;
