@@ -42,18 +42,16 @@ let formControls = document.querySelectorAll(".form-control");
 
 let inputs = document.querySelectorAll("#name, #email, #subject, textarea");
 
-// contactForm.addEventListener("change", (event) => {
+contactForm.addEventListener("input", (event) => {
     
-//     inputs.forEach((input, i) => {
-//         if(input.value === ""){
-//             event.preventDefault();
-//             formControls[i].classList.add("invalid");
-//         }else{
-//             formControls[i].classList.remove("invalid")
-//         };
-//     });
+    inputs.forEach((input, i) => {
+        if(input.value !== ""){
+            event.preventDefault();
+            formControls[i].classList.remove("invalid");
+        };
+    });
 
-// });
+});
 
 contactForm.addEventListener("submit", (event) => {
     
