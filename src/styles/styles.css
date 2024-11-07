@@ -39,6 +39,7 @@
     border-radius: 50%;
     box-shadow: -3px -3px 3px rgb(175, 175, 175),
     3px 3px 3px rgb(2, 2, 2);
+    transition: 0.5s ease-in-out;
 }
 
 .contacts-list a i:hover {
@@ -173,6 +174,8 @@
 
 .certificates .list-certificates .certified-title {
     margin-top: 10px;
+    font-size: 1.4rem;
+    height: 94px;
 }
 
 .certificate-description {
@@ -411,6 +414,10 @@ form button {
     text-align: center;
     font-size: 1.7rem;
     gap: 1rem;
+}
+
+footer a {
+    transition: 0.5s ease-in-out;
 }
 
 .footer a:hover {
