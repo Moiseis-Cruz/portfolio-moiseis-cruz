@@ -408,6 +408,10 @@ form button {
     gap: 1rem;
 }
 
+.footer a:hover {
+    color: var(--tertiary-color);
+}
+
 .footer .contacts-box {
     display: flex;
     flex-direction: column;
