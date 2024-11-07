@@ -5,6 +5,7 @@
     align-items: center;
     min-height: 100vh;
     background-color: var(--tertiary-color);
+    position: relative;
 }
 
 .hero-presentation {
@@ -56,6 +57,21 @@
     animation: gradient-animation 5s ease infinite;
 }
 
+.hero:after {
+    content: url("../assets/images/seta_preta.png");
+    height: 35px;
+    bottom: 40px;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    animation: downarrow 0.9s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes downarrow {
+    0% {-webkit-transform: translateY(0);}
+    100% {-webkit-transform: translateY(0.8em);}
+}
+
 @keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
@@ -75,6 +91,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 15px;
+}
+
+.profile-section-about {
+    max-width: 450px;
 }
 
 .about .description-about{
@@ -262,7 +283,7 @@
     max-width: 500px;
     width: 100%;
     padding: 20px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: var(--secundary-color) 0px 20px 30px -10px;
     margin-top: 45px;
 }
 
