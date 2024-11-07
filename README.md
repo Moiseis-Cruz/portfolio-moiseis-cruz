@@ -7,12 +7,15 @@ Tudo bom?
 Seja muito bem-vindo ao meu portfólio!
 <br>
 😊✌🏻
+<br>
+
+Aqui vocês poderão ver o melhor do meu trabalho, que sigo aprimorando as minhas habilidades. Conhecer um pouco de mim, como por exemplo, as minhas skills. Entrar em contato comigo através do formulário, que está incluso na aplicação. Baixar o meu currículo. E também estabelecer conexão comigo por meio das redes socias que eu utilizo (Algumas estão disponíveis no rodapé do portfólio).
 
 ## Objetivo:
 
 Mostrar a evolução do meu trabalho com a criação deste projeto. E, também apresentar outros projetos que adicionei a seção de `Pojetos` do próprio portfólio.
 <br>
-Você verá, que a cada novo projeto, consegui evoluir em complexidade dos código, projetos mais elaborados e organização dos códigos e arquivos.
+Você verá, que a cada novo projeto, consegui evoluir em elaboração dos códigos, construir projetos mais complexos e organizar os códigos e arquivos.
 
 ## Principais Desafios :
 
