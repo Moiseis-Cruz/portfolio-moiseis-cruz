@@ -41,8 +41,16 @@
 
 .header-buttons-content li a {
     text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
     color: var(--primary-color);
     font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+
+.header-buttons-content li a:hover {
+    border-bottom: 5px solid var(--quartiary-color);
+    border-right: 5px solid var(--quartiary-color);
 }
 
 .header-buttons-content li:nth-child(1){
@@ -79,14 +87,14 @@
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 901px) {
     .header-buttons-content li:nth-child(1){
         order: 3;
         align-self: flex-start;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .header-content {
         font-size: 1.4rem;
     }
