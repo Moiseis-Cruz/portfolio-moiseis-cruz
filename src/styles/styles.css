@@ -41,6 +41,11 @@
     3px 3px 3px rgb(2, 2, 2);
 }
 
+.contacts-list a i:hover {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
 .container-hero-image {
     max-width: 450px;
     border-radius: 50%;
