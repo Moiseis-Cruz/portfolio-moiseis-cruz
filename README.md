@@ -33,4 +33,4 @@ No JavaScript, elaborei o evento de clique que fica responsável por adicionar o
 - CSS;
 - JavaScript;
 
-<img src="" alt="" />
+<img src="./src/assets/gifs/portfolio_02.gif" alt="" />
