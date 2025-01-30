@@ -6,6 +6,9 @@
     align-items: center;
     padding: 0 30px;
     background-color: var(--tertiary-color);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .header-content {
